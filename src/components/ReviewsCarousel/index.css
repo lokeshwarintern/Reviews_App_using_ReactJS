@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.bg-container {
+  background-image: linear-gradient(to bottom, skyblue, #ddf);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.reviews-card {
+  width: 750px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.heading-ele {
+  color: #ffffff;
+  font-family: Roboto;
+  font-weight: 450;
+  font-size: 40px;
+}
+
+.btn-ele {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+}
+
+.reviewer-details {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.username-ele {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: Roboto;
+  font-weight: bold;
+}
+
+.des-ele {
+  color: #171f46;
+  font-family: Roboto;
+  text-align: center;
+}
